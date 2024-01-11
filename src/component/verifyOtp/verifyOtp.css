@@ -1,0 +1,98 @@
+
+.smbox
+{
+    width: 46px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Border, #E8ECF4);
+    background: #F7F8F9;
+}
+.buttonverify{
+    width: 330px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF6D6A;
+    position: relative;
+    top: 384px;
+    color: white;
+    cursor: pointer;
+}
+.resendpara{
+    color: #1E232C;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 21px */
+    letter-spacing: 0.15px;
+    top:445px;
+    position: absolute;
+    margin-left: 88px;
+}
+.icon{
+    display: flex;
+    width: 12px;
+    height: 12px;
+    padding: 16px 15px 15px 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #E8ECF4;
+    border-radius: 8px;
+}
+.resend{
+    color: #5574C6;
+font-family: Urbanist;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;
+letter-spacing: 0.15px;
+cursor: pointer;
+}
+.inputcontainer{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 297px;
+    margin-left: 20px;
+}
+.OTPheading{
+    position: absolute;
+    width: 302px;
+    height: 34px;
+    top: 186px;
+    left: 24px;
+    font-family: Urbanist;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color:#1E232C;
+}
+.paraotp
+{
+    position:absolute;
+    width: 331px;
+    height: 24px;
+    top: 221px;
+    left: 24px;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#8391A1;
+
+}

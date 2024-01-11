@@ -1,0 +1,51 @@
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E232C;
+     position: relative; 
+}
+.home{
+    position: absolute;
+    background-color: white;
+    width: 375px;
+    height: 577px;
+    /* top: -933px;
+    left: -235px; */
+
+}
+.heading
+{
+    position: absolute;
+    width: 302px;
+    height: 34px;
+    top: 254px;
+    left: 24px;
+    font-family: Urbanist;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color:#1E232C;
+}
+.para
+{
+    position:absolute;
+    width: 331px;
+    height: 24px;
+    top: 296px;
+    left: 24px;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#8391A1;
+
+}
